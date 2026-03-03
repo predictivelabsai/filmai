@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+.env.sample
+__pycache__
+*.pyc
+.venv
+venv
+tests/
+test-results/
+docs/
+screenshots/
+README.md
+LICENSE
+.claude/

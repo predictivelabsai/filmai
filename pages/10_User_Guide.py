@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Page configuration
 st.set_page_config(
-    page_title="User Guide - Movie Analytics Platform",
+    page_title="User Guide - Film AI",
     page_icon="📖",
     layout="wide"
 )
@@ -56,10 +56,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main header
-st.markdown('<h1 class="main-header">📖 Movie Analytics Platform - User Guide</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">📖 Film AI - User Guide</h1>', unsafe_allow_html=True)
 
 st.markdown("""
-Welcome to the comprehensive user guide for the **Movie Analytics Platform**. 
+Welcome to the comprehensive user guide for **Film AI**.
 This guide will walk you through all features and functionalities of the application.
 """)
 
@@ -449,7 +449,7 @@ st.markdown("""
 4. **Internet**: Ensure stable connection for AI processing
 5. **Backups**: Download and save all generated content locally
 6. **Updates**: Check for platform updates regularly
-7. **Support**: Contact support@movie-analytics.com for assistance
+7. **Support**: Contact support@filmai.com for assistance
 
 ### Performance Optimization
 
@@ -482,7 +482,7 @@ st.markdown("""
 - Wait and retry if service is temporarily down
 
 **Login Issues**
-- Verify credentials: admin@movie-analytics.com / movies2025
+- Verify credentials with your administrator
 - Clear browser cache and cookies
 - Try incognito/private browsing mode
 """)
@@ -495,7 +495,7 @@ st.markdown("""
 - **GitHub Repository**: [github.com/predictivelabsai/movies-product-placement](https://github.com/predictivelabsai/movies-product-placement)
 - **Documentation**: See README.md in the project root
 - **Issues**: Report bugs on GitHub Issues
-- **Email Support**: support@movie-analytics.com
+- **Email Support**: support@filmai.com
 
 ### 📄 License
 
@@ -505,7 +505,7 @@ This project is licensed under the MIT License. See LICENSE file for details.
 
 **Version**: 1.1.0  
 **Last Updated**: November 8, 2025  
-**Platform**: Movie Analytics Platform  
+**Platform**: Film AI  
 **AI Models**: Gemini 2.0 Flash, GPT-4.1-mini, XAI Grok 3
 """)
 

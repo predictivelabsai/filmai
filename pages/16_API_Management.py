@@ -10,7 +10,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="API Management - Movie Analytics",
+    page_title="API Management - Film AI",
     page_icon="🔌",
     layout="wide"
 )

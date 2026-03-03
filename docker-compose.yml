@@ -1,0 +1,23 @@
+services:
+  filmai:
+    build: .
+    container_name: filmai
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_URL=${DB_URL}
+      - OMDB_API_KEY=${OMDB_API_KEY}
+      - TAVILY_API_KEY=${TAVILY_API_KEY}
+      - TMDB_API_KEY=${TMDB_API_KEY}
+      - TMDB_API_READ_TOKEN=${TMDB_API_READ_TOKEN}
+      - XAI_API_KEY=${XAI_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - filmai_scripts:/app/scripts
+      - filmai_prompts:/app/prompts
+
+volumes:
+  filmai_scripts:
+  filmai_prompts:

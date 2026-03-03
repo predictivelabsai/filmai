@@ -13,7 +13,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Casting Match - Movie Analytics",
+    page_title="AI Casting Match - Film AI",
     page_icon="🎭",
     layout="wide"
 )

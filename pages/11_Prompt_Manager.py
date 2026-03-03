@@ -8,7 +8,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="Prompt Manager - Movie Analytics",
+    page_title="Prompt Manager - Film AI",
     page_icon="🧩",
     layout="wide"
 )

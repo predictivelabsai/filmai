@@ -16,3 +16,4 @@ PyPDF2
 pdfplumber
 scikit-learn
 plotly
+psycopg2-binary

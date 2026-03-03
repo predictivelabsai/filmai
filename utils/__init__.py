@@ -1,5 +1,5 @@
 """
-Utilities package for Movie Analytics Platform
+Utilities package for Film AI
 """
 
 from .pdf_script_extractor import (

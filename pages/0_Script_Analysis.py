@@ -12,7 +12,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="Script Analysis - Movie Analytics",
+    page_title="Script Analysis - Film AI",
     page_icon="📤",
     layout="wide"
 )

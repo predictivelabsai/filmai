@@ -7,7 +7,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="Movie Analytics - Product Placement AI",
+    page_title="Film AI - Product Placement AI",
     page_icon="🎬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -38,19 +38,19 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main content
-st.markdown('<h1 class="main-header">🎬 Movie Analytics Platform</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🎬 Film AI</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">AI-Powered Script Generation, Analysis & Insights Platform</p>', unsafe_allow_html=True)
 
 # Introduction
 st.markdown("""
-Welcome to the **Movie Analytics Platform** - your comprehensive solution for 
+Welcome to **Film AI** - your comprehensive solution for
 intelligent script generation, product placement analysis, casting recommendations, and financial forecasting.
 """)
 
 # Company info
-with st.expander("ℹ️ About Movie Analytics"):
+with st.expander("ℹ️ About Film AI"):
     st.markdown("""
-    **Movie Analytics** is a comprehensive platform for movie production analysis, specializing in innovative content creation 
+    **Film AI** is a comprehensive platform for movie production analysis, specializing in innovative content creation
     and strategic product placement integration.
     """)
 
@@ -135,13 +135,13 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("### 📞 Support")
-    st.markdown("Movie Analytics Platform")
+    st.markdown("Film AI")
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 2rem 0;">
-    <p>© 2025 Movie Analytics. All rights reserved.</p>
+    <p>© 2025 Film AI. All rights reserved.</p>
     <p>Powered by OpenAI, LangChain, and Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
