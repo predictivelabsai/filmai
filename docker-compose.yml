@@ -1,10 +1,9 @@
 services:
   filmai:
     build: .
-    container_name: filmai
     restart: unless-stopped
-    ports:
-      - "8502:8501"
+    expose:
+      - "8501"
     environment:
       - DB_URL=${DB_URL}
       - OMDB_API_KEY=${OMDB_API_KEY}
