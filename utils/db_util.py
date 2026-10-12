@@ -24,7 +24,7 @@ def get_connection():
     Returns:
         psycopg2 connection object
     """
-    conn = psycopg2.connect(DB_URL)
+    conn = psycopg2.connect(DB_URL, application_name=os.getenv("DB_APPLICATION_NAME", "filmai"))
     conn.autocommit = False
     return conn
 
